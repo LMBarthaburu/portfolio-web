@@ -1,0 +1,133 @@
+.about{
+  padding: 10px 128px;
+  color: var(--font-dark);
+  display: flex;
+}
+.container{
+  flex: 1.5;
+}
+.about-title{
+  text-align: center;
+  display: block;
+  font-size: 96px;
+  background-color: var(--orange);
+  margin-left: -45px;
+  padding: 0 45px;
+  color: var(--bg-light);
+  font-weight: bold;
+}
+.about-text{
+  font-size: 58px;
+}
+.about-container{
+  display: flex;
+  justify-content: space-between;
+}
+.about-item{
+  text-align: center;
+  margin: 0 30px;
+  padding: 25px 0;
+}
+.about-item-logo{
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+.stack-container{
+  flex: 1;
+}
+.stack-box{
+  padding: 25px;
+  border: 10px solid transparent;
+  border-image: linear-gradient(90deg,var(--orange) 0%, rgba(253,29,29,1) 50%, var(--purple) 100%) 1;
+  height: 100%;
+}
+@media (min-width: 992px) and (max-width: 1440px){
+  .about{
+    padding: 10px 32px;
+  }
+  .about-title{
+    font-size: 78px;
+    margin-left: -32px;
+  }
+  .about-text{
+    font-size: 40px;
+  }
+  .about-item{
+    margin: 0 15px;
+  }
+  .about-item-logo{
+    font-size: 70px;
+  }
+  .stack-container{
+    flex: 1;
+  }
+  .stack-box{
+    padding: 15px 10px;
+  }
+  }
+@media (min-width: 577px) and (max-width: 991px){
+  .container{
+    margin: 0;
+  }
+  .about{
+    padding: 0;
+    display: inline;
+  }
+  .about-title{
+    display: inline-block;
+    font-size: 64px;
+    margin-left: -10px;
+    padding: 0 10px;
+  }
+  .about-text{
+    font-size: 48px;
+  }
+  .about-item{
+    
+    margin: 5px 0 ;
+  }
+  .about-item-logo{
+    font-size: 70px;
+  }
+  .stack-box{
+    margin: 5px;
+    padding: 15px 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(90deg,var(--orange) 0%, rgba(253,29,29,1) 50%, var(--purple) 100%) 1;
+    height: 100%;
+  }
+}
+@media (max-width: 576px){
+  .about{
+    padding: 5px;
+    display: inline;
+  }
+  .about-title{
+    margin-top: 5px;
+    font-size: 48px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .about-text{
+    font-size: 30px;
+  }
+  .about-item{
+    margin: 0 ;
+  }
+  .about-item-logo{
+    font-size: 50px;
+  }
+  .stack-box{
+    margin: 5px;
+    padding: 15px 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(90deg,var(--orange) 0%, rgba(253,29,29,1) 50%, var(--purple) 100%) 1;
+    height: 100%;
+  }
+  .about-item-title{
+    font-size: 14px;
+  }
+  .about-item-text{
+    font-size: 12px;
+  }
+}

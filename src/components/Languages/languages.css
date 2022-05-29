@@ -1,0 +1,31 @@
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.skills-item{
+  text-align: center;
+  margin: 0 25px;
+}
+.skills-logo{
+  font-size: 100px;
+}
+@media (min-width: 992px) and (max-width: 1440px){
+  .skills-logo{
+    font-size: 70px;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px){
+  .skills-logo{
+    font-size: 70px;
+  }
+}
+@media (max-width: 576px){
+  .skills-item{
+    margin: 0 15px;
+  }
+  .skills-logo{
+    font-size: 50px;
+  }
+}

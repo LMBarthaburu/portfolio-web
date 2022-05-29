@@ -1,0 +1,40 @@
+:root{
+  --font-light:#dadada;
+  --font-dark:#f1f1f1;
+  --bg-darker:#333;
+  --bg-dark:#f1f1f1;
+  --bg-light:#333;
+  --bg-menu:#070707;
+  --orange: #833ab4;
+  --blue:#0004ff;
+  --dark-mode:#ff6600;
+  --card-bg: #1f1f1f;
+  --purple: #ff6600;
+}
+.day{
+  --font-light:#f1f1f1;
+  --font-dark:#333;
+  --bg-darker:#070707;
+  --bg-dark:#333;
+  --bg-light:#f1f1f1;
+  --bg-menu:#292b2e;
+  --orange:#ff6600;
+  --blue:#0004ff;
+  --dark-mode:#000141;
+  --card-bg: #fff;
+  --purple:  #833ab4;
+}
+.app{
+  padding-left: 10rem;
+  background-color: var(--bg-light);
+}
+@media (min-width: 577px) and (max-width: 991px){
+  .app{
+    padding-left: 0;
+  }
+}
+@media (max-width: 576px){
+  .app{
+    padding-left: 0;
+  }
+}

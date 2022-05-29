@@ -1,0 +1,99 @@
+.portfolio-card{
+  margin: 0 1px 10px;
+  padding: 3px;
+  width: 33%;
+  height:60vh;
+  border: 3px solid transparent;
+  border-image: linear-gradient(90deg,var(--orange) 0%, rgba(253,29,29,1) 50%, var(--purple) 100%) 1;
+  overflow: hidden;
+  position: relative;
+
+}
+.proyect-link{
+  text-decoration: none;
+  color: var(--font-dark);
+}
+.proyect-link:hover{
+  color: var(--orange);
+}
+.proyect-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all 1s ease;
+  position: relative;
+  z-index: 1;
+}
+.portfolio-card:hover img{
+  height: 70%;
+}
+
+.text-container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.proyect-icon{
+  font-size: 25px;
+  margin: 0 10px 0 0;
+}
+@media (min-width: 992px) and (max-width: 1440px){
+  .portfolio-card{
+    width: 30%;
+    height: 60vh;
+    margin: 2px;
+  }
+  .portfolio-card:hover img{
+    height: 60%;
+  }
+  .proyect-icon{
+    font-size: 22px;
+    margin: 0 5px 0 0;
+  }
+  .proyect-title{
+    font-size: 22px;
+  }
+  .proyect-tec{
+    font-size: 16px;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px){
+  .portfolio-card{
+    width: 100%;
+    height: 60vh;
+    margin: 5px 2px;
+  }
+  .portfolio-card:hover img{
+    height: 65%;
+  }
+  .proyect-icon{
+    font-size: 18px;
+    margin: 0 5px 0 0;
+  }
+  .proyect-title{
+    font-size: 24px;
+  }
+  .proyect-tec{
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px){
+  .portfolio-card{
+    width: 100%;
+  }
+  .portfolio-card:hover img{
+    height: 70%;
+  }
+  .proyect-icon{
+    font-size: 15px;
+    margin: 0 5px 0 0;
+  }
+  .proyect-title{
+    font-size: 20px;
+  }
+  .proyect-tec{
+    font-size: 14px;
+  }
+}
