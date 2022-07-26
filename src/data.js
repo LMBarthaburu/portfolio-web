@@ -3,7 +3,17 @@ import toDo from '../src/Assets/Img/to-do-list.png'
 import cpd from '../src/Assets/Img/campoder.png'
 import migo from '../src/Assets/Img/migo.png'
 import crypto from '../src/Assets/Img/crypto.png'
+import clinica from '../src/Assets/Img/clinica-rc.png'
 export const portfolio =[
+  {
+    id: 6,
+    img:clinica,
+    nombre: 'Clinica RC',
+    repositorio:'https://github.com/marcosarias21/proyecto-clinica',
+    repositorioBackEnd: 'https://github.com/LMBarthaburu/proyecto-clinica-backend',
+    link:'https://clinica-rc-24i.netlify.app/',
+    tecnologias:'MERN',
+  },
   {
     id: 1,
     img:crypto,

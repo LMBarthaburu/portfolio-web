@@ -2,6 +2,7 @@
   padding: 0 128px;
   color: var(--font-dark);
   position: relative;
+  margin-top: 15px;
 }
 .text-form{
   display: flex;
