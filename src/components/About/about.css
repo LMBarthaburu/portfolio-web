@@ -2,6 +2,7 @@
   padding: 10px 128px;
   color: var(--font-dark);
   display: flex;
+  margin: 25px 0;
 }
 .container{
   flex: 1.5;
