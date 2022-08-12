@@ -22,14 +22,14 @@ export const portfolio =[
     link:'https://crypto-world-info.netlify.app/',
     tecnologias:'HTML, CSS, Bootstrap, Javascript, React',
   },
-  {
-    id: 2,
-    img:migo,
-    nombre: 'Migo Community',
-    repositorio:'https://github.com/LMBarthaburu/red-social',
-    link:'https://migo-community.netlify.app/',
-    tecnologias:'HTML, CSS, Javascript',
-  },
+  // {
+  //   id: 2,
+  //   img:migo,
+  //   nombre: 'Migo Community',
+  //   repositorio:'https://github.com/LMBarthaburu/red-social',
+  //   link:'https://migo-community.netlify.app/',
+  //   tecnologias:'HTML, CSS, Javascript',
+  // },
   {
     id: 3,
     nombre: 'Turismo NOA',
