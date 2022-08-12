@@ -1,7 +1,7 @@
 import tNoa from '../src/Assets/Img/turismo-noa.png'
 import toDo from '../src/Assets/Img/to-do-list.png'
 import cpd from '../src/Assets/Img/campoder.png'
-import migo from '../src/Assets/Img/migo.png'
+// import migo from '../src/Assets/Img/migo.png'
 import crypto from '../src/Assets/Img/crypto.png'
 import clinica from '../src/Assets/Img/clinica-rc.png'
 export const portfolio =[
