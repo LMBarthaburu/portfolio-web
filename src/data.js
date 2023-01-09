@@ -51,7 +51,7 @@ export const portfolio =[
     img:cpd,
     nombre: 'Campoder SRL',
     repositorio:'https://github.com/LMBarthaburu/CamPoder',
-    link:'https://campodersrl.netlify.app/',
+    link:'https://campoder-srl.netlify.app/',
     tecnologias:'HTML, CSS, Bootstrap, Javascript',
   }
 ]
