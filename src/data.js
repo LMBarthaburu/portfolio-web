@@ -6,13 +6,12 @@ import crypto from '../src/Assets/Img/crypto.png'
 import clinica from '../src/Assets/Img/clinica-rc.png'
 export const portfolio =[
   {
-    id: 6,
-    img:clinica,
-    nombre: 'Clinica RC',
-    repositorio:'https://github.com/marcosarias21/proyecto-clinica',
-    repositorioBackEnd: 'https://github.com/LMBarthaburu/proyecto-clinica-backend',
-    link:'https://clinica-rc-24i.netlify.app/',
-    tecnologias:'MERN',
+    id: 5,
+    img:cpd,
+    nombre: 'Campoder SRL',
+    repositorio:'https://github.com/LMBarthaburu/CamPoder',
+    link:'https://campoder-srl.netlify.app/',
+    tecnologias:'HTML, CSS, Bootstrap, Javascript, React',
   },
   {
     id: 1,
@@ -47,11 +46,12 @@ export const portfolio =[
     tecnologias:'HTML, CSS, Javascript',
   },
   {
-    id: 5,
-    img:cpd,
-    nombre: 'Campoder SRL',
-    repositorio:'https://github.com/LMBarthaburu/CamPoder',
-    link:'https://campoder-srl.netlify.app/',
-    tecnologias:'HTML, CSS, Bootstrap, Javascript',
-  }
+    id: 6,
+    img:clinica,
+    nombre: 'Clinica RC',
+    repositorio:'https://github.com/marcosarias21/proyecto-clinica',
+    repositorioBackEnd: 'https://github.com/LMBarthaburu/proyecto-clinica-backend',
+    link:'https://clinica-rc-24i.netlify.app/',
+    tecnologias:'MERN',
+  },
 ]
