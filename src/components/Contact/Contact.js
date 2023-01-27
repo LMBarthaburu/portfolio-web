@@ -36,7 +36,7 @@ function Contact() {
             <button className='form-btn'>Submit</button>
             <a href={CV} download="LuisMiguelBarthaburu-CV.pdf" className='form-cv'>Download CV</a>
           </div>
-          {done && <p className='sent-msg'>Mensaje enviado con exito!!</p>}
+          {done && <p className='sent-msg'>Message sent succesfully!!</p>}
         </form>
       </div>
     </section>
