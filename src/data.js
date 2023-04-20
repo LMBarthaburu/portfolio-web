@@ -1,7 +1,7 @@
 import tNoa from '../src/Assets/Img/turismo-noa.png'
 import toDo from '../src/Assets/Img/to-do-list.png'
 import cpd from '../src/Assets/Img/campoder.png'
-// import migo from '../src/Assets/Img/migo.png'
+import migo from '../src/Assets/Img/migo.png'
 import crypto from '../src/Assets/Img/crypto.png'
 import clinica from '../src/Assets/Img/clinica-rc.png'
 export const portfolio =[
@@ -10,7 +10,7 @@ export const portfolio =[
     img:cpd,
     nombre: 'Campoder SRL',
     repositorio:'https://github.com/LMBarthaburu/CamPoder',
-    link:'https://campoder-srl.netlify.app/',
+    link:'https://campodersrl.com',
     tecnologias:'HTML, CSS, Bootstrap, Javascript, React',
   },
   {
@@ -21,14 +21,14 @@ export const portfolio =[
     link:'https://crypto-world-info.netlify.app/',
     tecnologias:'HTML, CSS, Bootstrap, Javascript, React',
   },
-  // {
-  //   id: 2,
-  //   img:migo,
-  //   nombre: 'Migo Community',
-  //   repositorio:'https://github.com/LMBarthaburu/red-social',
-  //   link:'https://migo-community.netlify.app/',
-  //   tecnologias:'HTML, CSS, Javascript',
-  // },
+  {
+    id: 2,
+    img:migo,
+    nombre: 'Migo Community',
+    repositorio:'https://github.com/LMBarthaburu/red-social',
+    link:'https://migo-community.netlify.app/',
+    tecnologias:'HTML, CSS, Javascript',
+  },
   {
     id: 3,
     nombre: 'Turismo NOA',
