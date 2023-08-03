@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 import './contact.css'
-import CV from '../../Assets/CV/Luis Miguel Barthaburu.pdf'
+import CV from '../../Assets/CV/LMB-CV.pdf'
 
 function Contact() {
   const formRef = useRef()
