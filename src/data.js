@@ -14,7 +14,7 @@ export const portfolio =[
     img:taller,
     nombre: 'Mi Taller (W.I.P.)',
     repositorio:'https://github.com/LMBarthaburu/taller',
-    link: 'https://joyful-genie-b9be85.netlify.app/',
+    link: 'https://mi-taller.netlify.app/',
     tecnologias:'MERN '
   },
   {
@@ -22,7 +22,7 @@ export const portfolio =[
     img:toolman,
     nombre: 'Toolman (W.I.P.)',
     repositorio:'https://github.com/LMBarthaburu/toolman',
-    link: 'https://harmonious-mochi-a38f1d.netlify.app/',
+    link: 'https://toolmantuc.netlify.app/',
     tecnologias:'REACT, Bootstrap'
   },
   {
