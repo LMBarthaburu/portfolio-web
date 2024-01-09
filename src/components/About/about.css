@@ -8,7 +8,7 @@
   flex: 1.5;
 }
 .about-title{
-  text-align: center;
+  text-align: start;
   display: block;
   font-size: 96px;
   background-color: var(--orange);
@@ -51,7 +51,7 @@
     margin-left: -32px;
   }
   .about-text{
-    font-size: 40px;
+    font-size: 35px;
   }
   .about-item{
     margin: 0 15px;

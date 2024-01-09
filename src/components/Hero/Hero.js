@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className='hero' id='home'>
       <div className='text'>
-        <h4 className='hi'>Hi there! I am</h4>
+        <h4 className='hi'>Hola! soy</h4>
         <h1 className='name'>Luis <span className='midle-name'> <br /> Miguel</span> Barthaburu</h1>
         <div className='list'>
           <div className='list-container'>
