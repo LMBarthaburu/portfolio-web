@@ -1,13 +1,13 @@
 .portfolio-card{
   margin: 0 1px 10px;
   padding: 3px;
-  width: 33%;
+  width: 100%;
   height:60vh;
   border: 3px solid transparent;
   border-image: linear-gradient(90deg,var(--orange) 0%, rgba(253,29,29,1) 50%, var(--purple) 100%) 1;
   overflow: hidden;
-  position: relative;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .proyect-link{
   text-decoration: none;
@@ -20,20 +20,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
   transition: all 1s ease;
-  position: relative;
-  z-index: 1;
+  grid-column: 1/2;
 }
-.portfolio-card:hover img{
-  height: 70%;
-}
-
 .text-container{
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+  grid-column: 2/2;
 }
 .proyect-icon{
   font-size: 25px;
@@ -41,12 +33,12 @@
 }
 @media (min-width: 992px) and (max-width: 1440px){
   .portfolio-card{
-    width: 30%;
+    width: 100%;
     height: 60vh;
     margin: 2px;
   }
   .portfolio-card:hover img{
-    height: 60%;
+    height: 110%;
   }
   .proyect-icon{
     font-size: 22px;
@@ -54,6 +46,10 @@
   }
   .proyect-title{
     font-size: 22px;
+    font-weight: bolder;
+  }
+  .proyect-description{
+    font-size: 18px;
   }
   .proyect-tec{
     font-size: 16px;
@@ -62,11 +58,11 @@
 @media (min-width: 577px) and (max-width: 991px){
   .portfolio-card{
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     margin: 5px 2px;
   }
   .portfolio-card:hover img{
-    height: 65%;
+    height: 110%;
   }
   .proyect-icon{
     font-size: 18px;
@@ -74,6 +70,10 @@
   }
   .proyect-title{
     font-size: 24px;
+    font-weight: bolder;
+  }
+  .proyect-description{
+    font-size: 18px;
   }
   .proyect-tec{
     font-size: 16px;
@@ -81,10 +81,18 @@
 }
 @media (max-width: 576px){
   .portfolio-card{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
   .portfolio-card:hover img{
-    height: 70%;
+    height: 100%;
+  }
+  .proyect-link{
+    height: 60%;
+  }
+  .text-container{
+    height: 40%;
   }
   .proyect-icon{
     font-size: 15px;
@@ -92,6 +100,10 @@
   }
   .proyect-title{
     font-size: 20px;
+    font-weight: bolder;
+  }
+  .proyect-description{
+    font-size: 16px;
   }
   .proyect-tec{
     font-size: 14px;

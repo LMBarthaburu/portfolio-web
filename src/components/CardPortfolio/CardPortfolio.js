@@ -11,6 +11,7 @@ function CardPortfolio(props) {
       </a>
       <div className='text-container'>
         <h3 className='proyect-title'>{props.titulo}</h3>
+        <h3 className='proyect-description'>{props.descripcion}</h3>
         <h5 className='proyect-tec'>{props.tecnologias}</h5>
         <div className='icon-box'>
           <a href={props.link} target='_blank' rel='noreferrer' className='proyect-link'>
