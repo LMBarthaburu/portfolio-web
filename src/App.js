@@ -13,7 +13,7 @@ function App() {
   const darkMode = theme.state.darkMode
 
   return (
-    <section className={darkMode ? 'day ' : ' '}>
+    <section className={darkMode ? ' ' : 'day'}>
       <Navbar/>
       <div className='app'>
         <Hero/>

@@ -80,6 +80,10 @@
   width: 160px;
   z-index: 2;
 }
+.active{
+  color: var(--orange);
+  font-weight: bold;
+}
 @media (min-width: 577px) and (max-width: 991px){
   .menu-hamb{
     display: initial;

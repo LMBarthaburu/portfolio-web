@@ -10,8 +10,8 @@ function Toggle() {
   }
   return (
     <section className='toggle'onClick={handleClick}>
-      <FaMoon className='toggle-moon t-icon'/>
       <FaSun className='toggle-sun t-icon'/>
+      <FaMoon className='toggle-moon t-icon'/>
       <div className={theme.state.darkMode? 't-button left' : 't-button right'}></div>
     </section>
   )

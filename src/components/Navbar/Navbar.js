@@ -13,6 +13,11 @@ function Navbar() {
   const handleClick =()=>{
     setDisplay(current => !current)
   }
+  const [active, setActive] = useState('');
+
+  const handleSetActive = (e) => {
+    setActive(e.target.id);
+  };
   return (
     <section>
       <div className='menu-hamb'  onClick={handleClick}>
@@ -30,10 +35,10 @@ function Navbar() {
           </div>
         </div>
         <nav className="navbar">
-          <a href="/#home" id="nav-home" className="nav-item" onClick={handleClick}>Home</a>
-          <a href="/#about" id="nav-about" className="nav-item" onClick={handleClick}>About</a>
-          <a href="/#portfolio" id="nav-portfolio" className="nav-item" onClick={handleClick}>Portfolio</a>
-          <a href="/#contact" id="nav-contact" className="nav-item" onClick={handleClick}>Contact</a>
+          <a href="/#home" id="nav-home" className={`nav-item ${active === 'nav-home' ? 'active' : ''}`} onClick={(e) => {handleSetActive(e); handleClick()}}>Home</a>
+          <a href="/#about" id="nav-about" className={`nav-item ${active === 'nav-about' ? 'active' : ''}`} onClick={(e) => {handleSetActive(e); handleClick()}}>About</a>
+          <a href="/#portfolio" id="nav-portfolio" className={`nav-item ${active === 'nav-portfolio' ? 'active' : ''}`} onClick={(e) => {handleSetActive(e); handleClick()}}>Portfolio</a>
+          <a href="/#contact" id="nav-contact" className={`nav-item ${active === 'nav-contact' ? 'active' : ''}`} onClick={(e) => {handleSetActive(e); handleClick()}}>Contact</a>
         </nav>
         <div className="dark-mode">
           <Toggle/>

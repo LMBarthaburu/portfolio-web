@@ -9,7 +9,7 @@ function About() {
     <section className='about' id='about'>
       <div className='container'>
         <h2 className='about-title'>Sobre mi!</h2>
-        <h3 className='about-text'>Soy desarrollador Full Stack MERN con experiencia en el desarrollo de paginas web institucionales y aplicaciones web, con conocimientos basicos de diseño y el uso de herramientas de diseño como Figma y Adobe XD, abierto a trabajar de manera remota!</h3>
+        <h3 className='about-text'>Programador web con conocimientos de diseño. Experiencia en el desarrollo de aplicaciones web utilizando el Stack MERN (MongoDB, Express, React y Node.js). Apasionado por la creación de sitios web y aplicaciones que sean fáciles de usar y visualmente atractivas.</h3>
         <div className='about-container'>
           <div className='about-item'>
             <GiWorld className='about-item-logo'/>
