@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import { ThemeContext } from './context';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const theme = useContext(ThemeContext)
@@ -20,6 +21,7 @@ function App() {
         <About/>
         <Portfolio/>
         <Contact/>
+        <Footer/>
       </div>
     </section>
   );

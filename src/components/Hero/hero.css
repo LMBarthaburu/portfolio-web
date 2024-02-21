@@ -4,7 +4,7 @@
 .hero{
   background-image: url('../../Assets/Img/img-hero-2.png');
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -49,7 +49,7 @@
   background-clip: text;
   color: transparent;
 }
-@keyframes move {
+/* @keyframes move {
   25%{
     transform: translateY(-96px);
   }
@@ -62,7 +62,7 @@
   100%{
     transform: translateY(-384px);
   }
-} 
+}  */
 .clippath{
   width: 50%;
   height: 100vh;
@@ -90,7 +90,7 @@
     font-size: 64px;
     line-height: 64px;
   }
-  @keyframes move {
+  /* @keyframes move {
     25%{
       transform: translateY(-64px);
     }
@@ -103,7 +103,7 @@
     100%{
       transform: translateY(-256px);
     }
-  } 
+  }  */
 }
 @media (min-width: 577px) and (max-width: 991px){
   .hero{
@@ -122,7 +122,7 @@
     font-size: 65px;
     line-height: 65px;
   }
-  @keyframes move {
+  /* @keyframes move {
     25%{
       transform: translateY(-130px);
     }
@@ -138,7 +138,7 @@
   } 
   .midle-name{
     display: inline;
-  }
+  } */
   .hero-skill{
     font-size: 100px;
     line-height: 75px;
@@ -148,6 +148,7 @@
   .hero{
     padding-left: 0px;
     backdrop-filter:  opacity(20%);
+    background-position: bottom;
   }
   .name{
     font-size: 50px;
@@ -163,7 +164,7 @@
     font-size: 48px;
     line-height: 1;
   }
-  @keyframes move {
+  /* @keyframes move {
     25%{
       transform: translateY(-6rem);
     }
@@ -179,7 +180,7 @@
   }
   .midle-name{
     display: inline;
-  }
+  } */
   .hero-skill{
     font-size: 60px;
     font-weight: bolder;
@@ -190,6 +191,7 @@
 }
 @media (max-width:361px){
   .hero{
+    background-position: bottom;
     padding-left: 5px;
   }
   .name{
@@ -203,7 +205,7 @@
     font-size: 36px;
     line-height: 1;
   }
-  @keyframes move {
+  /* @keyframes move {
     25%{
       transform: translateY(-72px);
     }
@@ -216,10 +218,10 @@
     100%{
       transform: translateY(-288px);
     }
-  }
-  .midle-name{
+  } */
+  /* .midle-name{
     display: inline;
-  }
+  } */
   .hero-skill{
     font-size: 40px;
     font-weight: bolder;

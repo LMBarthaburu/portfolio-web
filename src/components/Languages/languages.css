@@ -1,12 +1,14 @@
 .skills{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .skills-item{
   text-align: center;
-  margin: 0 25px;
 }
 .skills-logo{
   font-size: 100px;
