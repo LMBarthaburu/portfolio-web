@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa';
 import './navbar.css'
 import favicon from '../../Assets/Img/favicon.png'
 import Toggle from '../Toggle/Toggle';
 import {CgMenuGridO, CgClose} from 'react-icons/cg'
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 
 
@@ -27,12 +27,7 @@ function Navbar() {
         <div className='logo'>
           <img src={favicon} alt="imagen navabr" className='favicon' />
           <a className="logo" href="#home">LMB<span>W</span>eb<span>D</span>ev</a>
-          <div className='social-media'>
-            <a href="https://www.linkedin.com/in/luis-miguel-barthaburu-/" target="_blank" rel='noreferrer'><FaLinkedin/></a>
-            <a href="https://github.com/LMBarthaburu" target="_blank" rel='noreferrer'><FaGithub/></a>
-            <a href="https://www.instagram.com/lmbarthaburu/" target="_blank" rel='noreferrer'><FaInstagram/></a>
-            <a href="https://www.facebook.com/luis.barthaburu/" target="_blank"  rel='noreferrer'><FaFacebook/></a>
-          </div>
+          <SocialMedia/>
         </div>
         <nav className="navbar">
           <a href="/#home" id="nav-home" className={`nav-item ${active === 'nav-home' ? 'active' : ''}`} onClick={(e) => {handleSetActive(e); handleClick()}}>Home</a>
