@@ -21,7 +21,7 @@ export const portfolio =[
   {
     id:8,
     img:taller,
-    nombre: 'Mi Taller (W.I.P.)',
+    nombre: 'Mi Taller',
     repositorio:'https://github.com/LMBarthaburu/taller',
     link: 'https://mi-taller.netlify.app/',
     tecnologias:'MERN ',
@@ -31,7 +31,7 @@ export const portfolio =[
   {
     id:7,
     img:toolman,
-    nombre: 'Toolman (W.I.P.)',
+    nombre: 'Toolman',
     repositorio:'https://github.com/LMBarthaburu/toolman',
     link: 'https://toolmantuc.netlify.app/',
     tecnologias:'REACT, Bootstrap',
